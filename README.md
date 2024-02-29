@@ -3,12 +3,38 @@
 ## Indice
 - [Overview](#overview)
 - [Development](#development)
+    - [Website](#website)
+    - [Socket](#socket)
+    - [API](#api)
 
 ## Overview
-Il progetto di quest'anno presentato dall'istituto Galilei di Mirandola. Il sistema consiste nella sostituzione di un dipendente da parte del Nao.
+Il progetto di quest'anno presentato dall'istituto Galilei di Mirandola. 
+Il sistema di e-commerce gestito da un robot NAO si configura come un'innovativa soluzione che unisce l'interattività umano-macchina con la comodità e l'efficienza degli acquisti online. Ecco come funzionerebbe:
+
+### Interfaccia utente
+Il robot NAO funge da interfaccia tra l'utente e il sistema di e-commerce. Utilizzando il un sistema di autenticazione, il robot è in grado di identificare gli utenti e personalizzare l'esperienza di acquisto in base ai loro gusti e alle loro preferenze. Può anche rispondere a domande, fornire consigli sui prodotti e assistere durante il processo di acquisto.
+
+### Interfaccia digitale
+Accanto al robot NAO, c'è una piattaforma digitale web accessibile agli utenti tramite browser. Questa piattaforma consente loro di visualizzare i prodotti disponibili, la cronologia degli acquisti e il carrello.
+
+#### Funzionalità per i clienti
+- **Visualizzazione dei prodotti**: Gli utenti possono navigare attraverso una vasta gamma di prodotti suddivisi in categorie. Possono utilizzare filtri e criteri di ricerca per trovare rapidamente ciò che cercano.
+
+- **Cronologia degli acquisti**: Gli utenti possono accedere alla loro cronologia di acquisti passati, facilitando il riacquisto di prodotti preferiti o il monitoraggio dei loro acquisti nel tempo.
+
+- **Carrello**: Gli utenti possono aggiungere prodotti al carrello e gestire facilmente gli articoli prima di procedere al pagamento.
+
+#### Funzionalità per gli amministratori
+- **Dati di vendita**: Gli amministratori hanno accesso a una dashboard che fornisce dati dettagliati sulle vendite, inclusi grafici e report analitici. Possono monitorare le prestazioni dei prodotti, l'andamento delle vendite nel tempo e altre metriche cruciali per il business.
+
+- **Gestione dei prodotti**: Gli amministratori possono aggiungere nuovi prodotti, modificare le descrizioni, regolare i prezzi e gestire l'inventario direttamente dalla piattaforma web.
+
+### Processo di acquisto
+Quando un utente desidera effettuare un acquisto, può interagire con il robot NAO o utilizzare la piattaforma digitale web. Una volta che l'utente ha selezionato i prodotti desiderati e li ha aggiunti al carrello, può procedere al checkout. Durante questo processo, l'utente può scegliere il metodo di pagamento preferito e confermare l'ordine.
+
 
 ## Development
-<h3 align="center">Website • <a href="https://www.galileiisnao.it/" target="_blank">Gali's website</a></h3>
+<h3 align="center" id="website">Website • <a href="https://www.galileiisnao.it/" target="_blank">Gali's website</a></h3>
 
 <p align="center">
     <a href="#overview">Overview</a> |
@@ -118,7 +144,7 @@ Il sito ha infine una funzione di manifesto, infatti raccoglie foto di competizi
 
 ___
 
-<h3 align="center">Socket</h3>
+<h3 align="center" id="socket">Socket</h3>
 Il codice fornito implementa un server socket in Python utilizzando il modulo socket e threading per consentire la comunicazione bidirezionale tra il server e un client attraverso una connessione TCP.
 
 #### Analisi
@@ -186,7 +212,7 @@ Il codice implementa con successo un server socket che consente la comunicazione
 
 ___
 
-<h3 align="center">API</h3>
+<h3 align="center" id="api">API</h3>
 Questo algoritmo permette al Nao di comunicare con i database in modo da poter leggere e modificare i dati sul sito in tempo reale.
 
 ## 🛜Funzionamento
