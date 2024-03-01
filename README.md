@@ -315,8 +315,10 @@ Il resto della componentistica prevede un ponte H, un microprocessore raspberry,
 
 
 ## Parthner
+
 ![products](./screenshots/parthner.jpg)
-Quest’anno abbiamo deciso di risolvere un problema legato ad un vivaio nella nostra zona: il vivaio Morselli, a Medolla. É una serra di 30000 mq in cui è possibile trovare un'enorme varietà di piante, fiori, oggetti da giardino e persino attrezzatura per la piscina. Il nostro progetto nasce dalla volontà di dare una mano agli addetti, in modo che possano concentrarsi su altre attività, lasciando a Nao il compito di fornire informazioni e indicazioni ai clienti sulla posizione dei prodotti.
+
+Quest’anno abbiamo deciso di risolvere un problema legato ad un vivaio nella nostra zona: il vivaio Morselli, a Medolla. É una serra di $30000 m^2$ in cui è possibile trovare un'enorme varietà di piante, fiori, oggetti da giardino e persino attrezzatura per la piscina. Il nostro progetto nasce dalla volontà di dare una mano agli addetti, in modo che possano concentrarsi su altre attività, lasciando a Nao il compito di fornire informazioni e indicazioni ai clienti sulla posizione dei prodotti.
 
 
 
