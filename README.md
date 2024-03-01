@@ -8,7 +8,7 @@
     - [Socket](#socket)
     - [API](#api)
  - [Design](#design)
- - [Parthner](#parthner)
+ - [partner](#partner)
 
 
 ## Overview
@@ -314,9 +314,9 @@ Un altro supporto serve per il sensore ad ultrasuoni, che è stato ideato in mod
 Il resto della componentistica prevede un ponte H, un microprocessore raspberry, una breadboard, una batteria da 12 V ed un microcontrollore arduino; tutto collegato tramite fili conduttori con estremità sia maschio che femmina e dei connettori Faston.
 
 
-## Parthner
+## partner
 
-![products](./screenshots/parthner.jpg)
+![products](./screenshots/partner.jpg)
 
 Quest’anno abbiamo deciso di risolvere un problema legato ad un vivaio nella nostra zona: il vivaio Morselli, a Medolla. É una serra di $30000 m^2$ in cui è possibile trovare un'enorme varietà di piante, fiori, oggetti da giardino e persino attrezzatura per la piscina. Il nostro progetto nasce dalla volontà di dare una mano agli addetti, in modo che possano concentrarsi su altre attività, lasciando a Nao il compito di fornire informazioni e indicazioni ai clienti sulla posizione dei prodotti.
 
