@@ -2,11 +2,14 @@
 
 ## Indice
 - [Overview](#overview)
+- [NAO](#nao)
 - [Development](#development)
     - [Website](#website)
     - [Socket](#socket)
     - [API](#api)
  - [Design](#design)
+ - [Parthner](#parthner)
+
 
 ## Overview
 Il progetto di quest'anno presentato dall'istituto Galilei di Mirandola. 
@@ -32,6 +35,10 @@ Accanto al robot NAO, c'è una piattaforma digitale web accessibile agli utenti 
 
 ### Processo di acquisto
 Quando un utente desidera effettuare un acquisto, può interagire con il robot NAO o utilizzare la piattaforma digitale web. Una volta che l'utente ha selezionato i prodotti desiderati e li ha aggiunti al carrello, può procedere al checkout. Durante questo processo, l'utente può scegliere il metodo di pagamento preferito e confermare l'ordine.
+
+
+## NAO
+L’interazione tra Nao e Raspberry ci ha consentito di creare un programma in grado di accompagnare i clienti del nostro partner alla locazione del prodotto che cercano. L’utente può richiedere la posizione di un prodotto tramite ricerca vocale oppure mostrando l’immagine o il NaoMark del prodotto, tutte stampe plastificate che verranno messe a disposizione all’ingresso del vivaio. In seguito al riconoscimento se il cliente vorrà essere accompagnato, il Nao invierà il nome del suddetto tramite socket al Raspberry che possiede già al suo interno le posizioni dei vari prodotti. Elaborerà i dati e invierà il percorso da seguire al Nao. Ciò è possibile perché nel mentre il robot si guarderà intorno dove saranno appesi ulteriori NaoMark che gli consentiranno di orientarsi e conoscere la sua posizione all’interno del negozio. Se altrimenti il cliente non desiderasse essere accompagnato, il Nao darà solo informazioni sulla corsia. La vera rivoluzione del nostro progetto è la possibilità di poter usufruire di un carrello virtuale accessibile tramite un fantastico personal shopper. Il cliente, dopo essere stato accompagnato, potrà decidere se usufruire di quest’opportunità, ma solo se registrato sul nostro sito.
 
 
 ## Development
@@ -299,6 +306,29 @@ Il logo è semplice e minimalista. I colori utilizzati sono il bianco, il blu e 
 Il logo è efficace perché è facile da ricordare e da riconoscere. I colori utilizzati sono semplici e puliti e il carattere tipografico è moderno e accattivante.
 
 
+## Carrello
+Alcuni ragazzi della nostra squadra si sono occupati della costruzione di un carrellino mobile, con la funzione di accompagnare l’utente verso il prodotto che sta cercando, in modo da rendere gli spostamenti più efficienti. 
+Il carrellino costituito da uno scheletro realizzato con un  profilato metallico e delle giunzioni in legno, ai quali sono stati aggiunti dei supporti realizzati in PLA con la stampante 3D, per garantire la stabilità di tutta la componentistica, come le ruote multidirezionali, pivottanti.
+Oltre alle ruote multidirezionali sono presenti anche altre due ruote laterali monofase, motrici. 
+Un altro supporto serve per il sensore ad ultrasuoni, che è stato ideato in modo che possa ruotare di circa 180 gradi, per avere un ampio raggio di rilevamento delle distanze ed il pieno controllo di eventuali ostacoli. Svolge la stessa funzione un buzzer.
+Il resto della componentistica prevede un ponte H, un microprocessore raspberry, una breadboard, una batteria da 12 V ed un microcontrollore arduino; tutto collegato tramite fili conduttori con estremità sia maschio che femmina e dei connettori Faston.
+
+
+## Parthner
+![products](./screenshots/parthner.jpg)
+Quest’anno abbiamo deciso di risolvere un problema legato ad un vivaio nella nostra zona: il vivaio Morselli, a Medolla. É una serra di 30000 mq in cui è possibile trovare un'enorme varietà di piante, fiori, oggetti da giardino e persino attrezzatura per la piscina. Il nostro progetto nasce dalla volontà di dare una mano agli addetti, in modo che possano concentrarsi su altre attività, lasciando a Nao il compito di fornire informazioni e indicazioni ai clienti sulla posizione dei prodotti.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -351,4 +381,4 @@ Il logo è efficace perché è facile da ricordare e da riconoscere. I colori ut
 </p>
 
 ## Social
-- Instagram
+- [Instagram](https://www.instagram.com/galileisnao/)
