@@ -8,7 +8,7 @@
     - [Socket](#socket)
     - [API](#api)
  - [Design](#design)
- - [partner](#partner)
+ - [Partner](#partner)
 
 
 ## Overview
@@ -314,7 +314,7 @@ Un altro supporto serve per il sensore ad ultrasuoni, che è stato ideato in mod
 Il resto della componentistica prevede un ponte H, un microprocessore raspberry, una breadboard, una batteria da 12 V ed un microcontrollore arduino; tutto collegato tramite fili conduttori con estremità sia maschio che femmina e dei connettori Faston.
 
 
-## partner
+## Partner
 
 ![products](./screenshots/partner.jpg)
 
