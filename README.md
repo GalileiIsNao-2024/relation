@@ -6,10 +6,11 @@
     - [Website](#website)
     - [Socket](#socket)
     - [API](#api)
+ - [Design](#design)
 
 ## Overview
 Il progetto di quest'anno presentato dall'istituto Galilei di Mirandola. 
-Il sistema di e-commerce gestito da un robot NAO si configura come un'innovativa soluzione che unisce l'interattività umano-macchina con la comodità e l'efficienza degli acquisti online. Ecco come funzionerebbe:
+Il sistema di e-commerce gestito da un robot NAO si configura come un'innovativa soluzione che unisce l'interattività uomo-macchina con la comodità e l'efficienza degli acquisti online. Il sistema favorisce anche coloro che a causa di disabilità riscontrano problemi nello svolgimento di attività di medesimo tipo, garantendo così a determinate categorie di cittadini maggior autonomia ed emancipazione nella società odierna. Ecco come funzionerebbe:
 
 ### Interfaccia utente
 Il robot NAO funge da interfaccia tra l'utente e il sistema di e-commerce. Utilizzando il un sistema di autenticazione, il robot è in grado di identificare gli utenti e personalizzare l'esperienza di acquisto in base ai loro gusti e alle loro preferenze. Può anche rispondere a domande, fornire consigli sui prodotti e assistere durante il processo di acquisto.
@@ -291,8 +292,11 @@ Tables:
     ![users](./screenshots/users.png)
 
 
+## Design
+Il logo di quest'anno rappresenta un cerchio bianco con una linea nera che lo attraversa orizzontalmente. All'interno del cerchio, ci sono le lettere "NAO". Il carattere tipografico utilizzato per le lettere è un sans-serif moderno.
 
-
+Il logo è semplice e minimalista. I colori utilizzati sono il bianco, il blu e il verde.
+Il logo è efficace perché è facile da ricordare e da riconoscere. I colori utilizzati sono semplici e puliti e il carattere tipografico è moderno e accattivante.
 
 
 
@@ -345,3 +349,6 @@ Tables:
 <p align="center">  
     <img alt="Nao website preview" src="./screenshots/nao-cards.png"/>
 </p>
+
+## Social
+- Instagram
