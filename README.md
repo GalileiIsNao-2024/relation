@@ -9,6 +9,8 @@
     - [API](#api)
  - [Design](#design)
  - [Partner](#partner)
+ - [Social](#social)
+ - [Videomaking](#videomaking)
 
 
 ## Overview
@@ -322,10 +324,11 @@ Il resto della componentistica prevede un ponte H, un microprocessore raspberry,
 Quest’anno abbiamo deciso di risolvere un problema legato ad un vivaio nella nostra zona: il vivaio Morselli, a Medolla. É una serra di $30000 m^2$ in cui è possibile trovare un'enorme varietà di piante, fiori, oggetti da giardino e persino attrezzatura per la piscina. Il nostro progetto nasce dalla volontà di dare una mano agli addetti, in modo che possano concentrarsi su altre attività, lasciando a Nao il compito di fornire informazioni e indicazioni ai clienti sulla posizione dei prodotti.
 
 
+## Social
+Alcuni di noi si sono occupati della gestione delle pagine social della squadra. Sia su [Instagram](https://www.instagram.com/galileisnao/) che su [TikTok](https://www.tiktok.com/@galileisnao?_t=8kpyQ2BZf2f&_r=1) ci siamo concentrati sulla produzione di contenuti che potessero intrattenere il pubblico ma al contempo rivelare ciò che sta dietro al progetto NAO di quest'anno. Abbiamo tentato di essere molto attivi per permettere al nostro messaggio di raggiungere un pubblico più ampio.  
 
-
-
-
+## Videomaking
+Ci siamo occupati di realizzare un video di presentazione del progetto in cui sono presenti i componenti della squadra. Ognuno si occupa di parlare dell'attività da loro svolta al fine di portare a termine il progetto, parlando nello specifico del funzionamento di NAO, della piattaforma, del sito, di Raspbarry e di tutte le altre componenti. Per le riprese abbiamo utilizzato un Iphone 13, mentre per il montaggio abbiamo usato "DaVinci Resolve".
 
 
 
