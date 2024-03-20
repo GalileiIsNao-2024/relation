@@ -307,11 +307,12 @@ Il logo è efficace perché è facile da ricordare e da riconoscere. I colori ut
 
 
 ## Carrello
-Alcuni ragazzi della nostra squadra si sono occupati della costruzione di un carrellino mobile, con la funzione di accompagnare l’utente verso il prodotto che sta cercando, in modo da rendere gli spostamenti più efficienti. 
-Il carrellino costituito da uno scheletro realizzato con un  profilato metallico e delle giunzioni in legno, ai quali sono stati aggiunti dei supporti realizzati in PLA con la stampante 3D, per garantire la stabilità di tutta la componentistica, come le ruote multidirezionali, pivottanti.
-Oltre alle ruote multidirezionali sono presenti anche altre due ruote laterali monofase, motrici. 
-Un altro supporto serve per il sensore ad ultrasuoni, che è stato ideato in modo che possa ruotare di circa 180 gradi, per avere un ampio raggio di rilevamento delle distanze ed il pieno controllo di eventuali ostacoli. Svolge la stessa funzione un buzzer.
-Il resto della componentistica prevede un ponte H, un microprocessore raspberry, una breadboard, una batteria da 12 V ed un microcontrollore arduino; tutto collegato tramite fili conduttori con estremità sia maschio che femmina e dei connettori Faston.
+Alcuni ragazzi della nostra squadra hanno sviluppato e costruito una piattaforma mobile idealizzata per affiancare coloro che sono affetti da disbilità psichiche e sensoriali come ad esempio cecità; detto ciò, la funzione primaria del dispositivo è quella di accompagnare l’utente verso il prodotto che sta cercando, in modo da rendere più efficienti gli spostamenti e i sevezi dal commesso offerti . 
+Da una recente indagine statistica è stato dimostrato che nel 34% dei negozi all'inetrno suolo nazionale , molti comsumatori riscontrano una situazione di disagio dovuta a lunghi tempi di attesa e ad un servizio carente in cui la presenza del venditore o di chi ne fa le veci è insufficiente e poco attenta a causa di grandi carichi di lavoro.
+Il carrellino è composto da uno scheletro realizzato con un  profilato metallico e delle giunzioni in legno, ai quali sono stati aggiunte parti di carpenteria metallica e dei supporti con lo scopo di garantire il giusto alloggiamento e la stabilità di tutta la componentistica come le ruote multidirezionali anteriori e posteriori e quelle motrici , monofase laterali.
+Codesti sostegni sono porgettati attraverso il software di modellazione e progettazione 3d , Fusion 360 e poi riprodotti in PLA 1,75 mm² con una stampante 3D Flashforge Guider 2s. 
+Tra i dispositivi elettronici presenti vi è un sensore ad ultrasuoni,  ideato in modo che possa compiere una ruotazione di circa 180 gradi, grazie ad un servomotore, per avere un ampio raggio di rilevamento delle distanze ed il pieno controllo di eventuali ostacoli che potrebbero ostruire il passaggio della piattaforma stessa.  
+Il resto della componentistica prevede un ponte H, un microprocessore raspberry, una breadboard, una batteria da 12 V, un pulsante id accensione bistabile ed un microcontrollore arduino; tutto collegato tramite fili conduttori con estremità sia di tipo maschio che femmina e dei connettori Faston.
 
 
 ## Partner
