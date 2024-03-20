@@ -44,6 +44,76 @@ L’interazione tra Nao e Raspberry ci ha consentito di creare un programma in g
 
 Su Choregraphe il programma si presenta così:
 
+<p align="center">  
+    <img src="./screenshots/choregraphe.png"/>
+</p>
+
+Nella prima parte di programma avviene il riconoscimento dello username di registrazione, tramite un blocco Speech Reco modificato per ricevere la lista contenente gli iscritti al sito; le modifiche, apportate all'interno della funzione onInput_onStart() sono le seguenti
+
+```python
+def onInput_onStart(self):
+    import requests
+    global users
+
+    def get_data(url, credentials):
+        response = requests.post(url, data=credentials)
+        if response.ok:
+            words = ""
+            for i in response.json():
+                words += str(i) + ","
+            return words
+        else:
+            raise Exception("Errore. ", response.status_code)
+
+
+    url = "https://www.bitlusion.com/nao/send_nao.php"
+    data = {
+        "request": "allUsers",
+    }
+
+    users += get_data(url, data)
+
+    self.mutex.acquire()
+    if(self.bIsRunning):
+        self.mutex.release()
+        return
+    self.bIsRunning = True
+    try:
+        if self.asr:
+            self.asr.pushContexts()
+        self.hasPushed = True
+        if self.asr:
+            self.asr.setVocabulary(users.split(","), self.getParameter("Enable word spotting") )
+        self.memory.subscribeToEvent("WordRecognized", self.getName(), "onWordRecognized")
+        self.hasSubscribed = True
+    except RuntimeError, e:
+        self.mutex.release()
+        self.onUnload()
+        raise e
+    self.mutex.release()
+```
+
+**Modifiche**
+
+- `users` è una variabile globale definita all'esterno della classe
+- `url` è il collegamento con il <a href="#struttura-del-database">database</a>
+- `data` è la richiesta della lista `allUsers` in cui sono presenti tutti gli username degli iscritti al sito
+  
+L'ultima modifica riguarda infine la sostistuzione del parametro `Word list` con la nuova variabile globale `users`, passando da ```python
+    self.asr.setVocabulary( self.getParameter("Word list").split(';'), self.getParameter("Enable word spotting") )
+    ```
+    a ```python
+    self.asr.setVocabulary( users.split(","), self.getParameter("Enable word spotting") )
+    ```
+
+Al riconoscimento dello username segue poi la scelta della modalità di richiesta informazioni: 
+- riconoscimento vocale
+- riconoscimento immagine del prodotto
+- riconoscimento NaoMark associato al prodotto
+
+Il programma assegna dunque una stringa al prodotto riconosciuto e procede con l'invio del suddetto al server (Raspberry) tramite socket. Contemporaneamente predispone le basi per un'eventuale aggiunta del prodotto al carrelo virtuale, mandando già la stringa al blocco `cart` (questo sarà poi eseguito solo in caso di risposta affermativa da parte dell'utente alla domanda "Desideri aggiungere il prodotto al carrello?")
+
+Se invece l'utente non desiderasse essere accompagnato, il programma dirà soltanto la corsia in cui si trova il prodotto, tornando poi al punto iniziale, in attesa di una nuova interazione.
 
 ## Development
 <h3 align="center" id="website">Website • <a href="https://www.galileiisnao.it/" target="_blank">Gali's website</a></h3>
