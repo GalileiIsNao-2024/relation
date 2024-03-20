@@ -42,6 +42,8 @@ Quando un utente desidera effettuare un acquisto, può interagire con il robot N
 ## NAO
 L’interazione tra Nao e Raspberry ci ha consentito di creare un programma in grado di accompagnare i clienti del nostro partner alla locazione del prodotto che cercano. L’utente può richiedere la posizione di un prodotto tramite ricerca vocale oppure mostrando l’immagine o il NaoMark del prodotto, tutte stampe plastificate che verranno messe a disposizione all’ingresso del vivaio. In seguito al riconoscimento se il cliente vorrà essere accompagnato, il Nao invierà il nome del suddetto tramite socket al Raspberry che possiede già al suo interno le posizioni dei vari prodotti. Elaborerà i dati e invierà il percorso da seguire al Nao. Ciò è possibile perché nel mentre il robot si guarderà intorno dove saranno appesi ulteriori NaoMark che gli consentiranno di orientarsi e conoscere la sua posizione all’interno del negozio. Se altrimenti il cliente non desiderasse essere accompagnato, il Nao darà solo informazioni sulla corsia. La vera rivoluzione del nostro progetto è la possibilità di poter usufruire di un carrello virtuale accessibile tramite un fantastico personal shopper. Il cliente, dopo essere stato accompagnato, potrà decidere se usufruire di quest’opportunità, ma solo se registrato sul nostro sito.
 
+Su Choregraphe il programma si presenta così:
+
 
 ## Development
 <h3 align="center" id="website">Website • <a href="https://www.galileiisnao.it/" target="_blank">Gali's website</a></h3>
