@@ -388,6 +388,15 @@ Codesti sostegni sono porgettati attraverso il software di modellazione e proget
 Tra i dispositivi elettronici presenti vi è un sensore ad ultrasuoni,  ideato in modo che possa compiere una ruotazione di circa 180 gradi, grazie ad un servomotore, per avere un ampio raggio di rilevamento delle distanze ed il pieno controllo di eventuali ostacoli che potrebbero ostruire il passaggio della piattaforma stessa.  
 Il resto della componentistica prevede un ponte H, un microprocessore raspberry, una breadboard, una batteria da 12 V, un pulsante id accensione bistabile ed un microcontrollore arduino; tutto collegato tramite fili conduttori con estremità sia di tipo maschio che femmina e dei connettori Faston.
 
+**Stampe 3D**
+
+Le componenti del carrello sono state realizzate tramite l'utilizzo di una stampante 3D; queste componenti sono:
+- supporti per microcontrollori quali Arduino e Raspberry
+- supporto per batteria (da 6800mAh, 12V nominali) e powerbank (da 20000 mA, da 9V e 20W)
+- ruote di stabilizzazione
+- angoli anticaduta per il NAO
+
+
 
 ## Microcontrollori
 Arduino è una scheda elettronica programmabile con un linguaggio che deriva dal c o c++ , chiamato wiring ; nel nostro progetto è stato utilizzato un arduino UNO EVShield , un dispositivo dotato di un microcontrollore ATmega328P. Questa è un'espansione specifica che aggiunge funzionalità specifiche per i robot LEGO Mindstorms EV3 e consente alla scheda di controllare i motori, i sensori e altre componenti dei robot LEGO.
@@ -414,7 +423,7 @@ Alcuni di noi si sono occupati della gestione delle pagine social della squadra.
 ## Videomaking
 Ci siamo occupati di realizzare un video di presentazione del progetto in cui sono presenti i componenti della squadra. Ognuno si occupa di parlare dell'attività da loro svolta al fine di portare a termine il progetto, parlando nello specifico del funzionamento di NAO, della piattaforma, del sito, di Raspbarry e di tutte le altre componenti. Per le riprese abbiamo utilizzato un Iphone 13, mentre per il montaggio abbiamo usato "DaVinci Resolve".
 
-
+Per la creazione dell'intro del video è stato invece utilizzato Blender, un software open source per la realizzazione di immagini 3D dinamimche. Grazie al rigging di alta qualità e agli strumenti di animazione, Blender viene utilizzato per numerosi cortometraggi, pubblicità, serie TV. Per la realizzazione della serra virtuale alcuni oggetti sono stati importati da Quixel, una libreria di modelli 3D scaricabili gratuitamente. Il video è stato poi renderizzato in 2k.
 
 
 
