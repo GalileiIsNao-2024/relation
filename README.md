@@ -394,7 +394,11 @@ Arduino è una scheda elettronica programmabile con un linguaggio che deriva dal
 L’EVShield consente all'Arduino UNO di interfacciarsi direttamente a questi, ed è progettato per essere facile da utilizzare, con connettori e porte che si adattano perfettamente ai componenti dei robot LEGO, questo si estende anche a sensori e attuatori dell'Arduino UNO aumentando le possibilità di progettazione.
 Questa unione è stata utilizzata grazie a delle librerie specifiche per l'Arduino UNO EVShield che semplificano lo sviluppo di progetti elettronici e informatici.
 Nel Progetto l'arduino comanda: un sensore ad ultrasuoni accoppiato ad un micro servo analogico con una gamma di rotazione di 180° che muoverà il sensore ad ultrasuoni in modo circolare, determinante per la rilevazione di ostacoli sul percorso, il suo funzionamento è legato all'emissione di un onda ad ultrasuoni da parte del Transmitter, questa, quando incontrerà un ostacolo tornerà al Receiver; ed un buzzer che emetterà suoni per farlo identificare ad una persona non vedente.
-Questi tre lavorano ad una tensione di 3,3V perciò, la tensione nominale uscente dalle schede, di 5V viene ridotta attraverso un metodo elettrotecnico chiamato partitore di tensione che consiste nella disposizione di alcuni resistori in un modo specifico. 
+Questi tre lavorano ad una tensione di 3,3V perciò, la tensione nominale uscente dalle schede, di 5V viene ridotta attraverso un metodo elettrotecnico chiamato partitore di tensione che consiste nella disposizione di alcuni resistori in un modo specifico.
+
+Il Raspberry Pi 4 Modello B+ è una versione avanzata della famiglia Raspberry dotato di porte micro HDMI per la connessione di monitor esterni; dotato anche di due porte USB 2.0 e due porte USB 3.0, che consentono di collegare dispositivi esterni come tastiere, mouse, unità flash USB ecc.
+Utilizza schede microSD come supporto di archiviazione principale, consentendo di espandere facilmente lo spazio di archiviazione e caricare il sistema operativo: Raspbian, basato su Debian.
+Dispone di un header GPIO (General Purpose Input/Output) a 40 pin che consente di collegare sensori, attuatori e altri dispositivi elettronici al Raspberry Pi; noi nel nostro progetto abbiamo collegato al Raspberry Pi a due motori gestiti da un ponte H: un circuito elettronico che controlla l'intensità di corrente che passa attraverso i due motori; questo è composto da quattro transistor di potenza 
 
 
 ## Partner
