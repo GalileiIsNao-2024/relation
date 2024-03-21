@@ -389,6 +389,14 @@ Tra i dispositivi elettronici presenti vi è un sensore ad ultrasuoni,  ideato i
 Il resto della componentistica prevede un ponte H, un microprocessore raspberry, una breadboard, una batteria da 12 V, un pulsante id accensione bistabile ed un microcontrollore arduino; tutto collegato tramite fili conduttori con estremità sia di tipo maschio che femmina e dei connettori Faston.
 
 
+## Microcontrollori
+Arduino è una scheda elettronica programmabile con un linguaggio che deriva dal c o c++ , chiamato wiring ; nel nostro progetto è stato utilizzato un arduino UNO EVShield , un dispositivo dotato di un microcontrollore ATmega328P. Questa è un'espansione specifica che aggiunge funzionalità specifiche per i robot LEGO Mindstorms EV3 e consente alla scheda di controllare i motori, i sensori e altre componenti dei robot LEGO.
+L’EVShield consente all'Arduino UNO di interfacciarsi direttamente a questi, ed è progettato per essere facile da utilizzare, con connettori e porte che si adattano perfettamente ai componenti dei robot LEGO, questo si estende anche a sensori e attuatori dell'Arduino UNO aumentando le possibilità di progettazione.
+Questa unione è stata utilizzata grazie a delle librerie specifiche per l'Arduino UNO EVShield che semplificano lo sviluppo di progetti elettronici e informatici.
+Nel Progetto l'arduino comanda: un sensore ad ultrasuoni accoppiato ad un micro servo analogico con una gamma di rotazione di 180° che muoverà il sensore ad ultrasuoni in modo circolare, determinante per la rilevazione di ostacoli sul percorso, il suo funzionamento è legato all'emissione di un onda ad ultrasuoni da parte del Transmitter, questa, quando incontrerà un ostacolo tornerà al Receiver; ed un buzzer che emetterà suoni per farlo identificare ad una persona non vedente.
+Questi tre lavorano ad una tensione di 3,3V perciò, la tensione nominale uscente dalle schede, di 5V viene ridotta attraverso un metodo elettrotecnico chiamato partitore di tensione che consiste nella disposizione di alcuni resistori in un modo specifico. 
+
+
 ## Partner
 
 ![products](./screenshots/partner.jpg)
