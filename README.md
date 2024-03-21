@@ -391,7 +391,7 @@ Tra i dispositivi elettronici presenti vi è un sensore ad ultrasuoni,  ideato i
 Il resto della componentistica prevede un ponte H, un microprocessore raspberry, una breadboard, una batteria da 12 V, un pulsante id accensione bistabile ed un microcontrollore arduino; tutto collegato tramite fili conduttori con estremità sia di tipo maschio che femmina e dei connettori Faston.
 
 **Stampe 3D**
-
+![3ds1](./screenshots/3ds2.jpg)
 Le componenti del carrello sono state realizzate tramite l'utilizzo di una stampante 3D; queste componenti sono:
 - supporti per microcontrollori quali Arduino e Raspberry
 - supporto per batteria (da 6800mAh, 12V nominali) e powerbank (da 20000 mA, da 9V e 20W)
@@ -401,6 +401,7 @@ Le componenti del carrello sono state realizzate tramite l'utilizzo di una stamp
 
 
 ## Microcontrollori
+![3ds1](./screenshots/3ds1.jpg)
 Arduino è una scheda elettronica programmabile con un linguaggio che deriva dal c o c++ , chiamato wiring ; nel nostro progetto è stato utilizzato un arduino UNO EVShield , un dispositivo dotato di un microcontrollore ATmega328P. Questa è un'espansione specifica che aggiunge funzionalità specifiche per i robot LEGO Mindstorms EV3 e consente alla scheda di controllare i motori, i sensori e altre componenti dei robot LEGO.
 L’EVShield consente all'Arduino UNO di interfacciarsi direttamente a questi, ed è progettato per essere facile da utilizzare, con connettori e porte che si adattano perfettamente ai componenti dei robot LEGO, questo si estende anche a sensori e attuatori dell'Arduino UNO aumentando le possibilità di progettazione.
 Questa unione è stata utilizzata grazie a delle librerie specifiche per l'Arduino UNO EVShield che semplificano lo sviluppo di progetti elettronici e informatici.
