@@ -398,10 +398,9 @@ Le componenti del carrello sono state realizzate tramite l'utilizzo di una stamp
 - ruote di stabilizzazione
 - angoli anticaduta per il NAO
 
-
+![3ds1](./screenshots/3ds1.jpg)
 
 ## Microcontrollori
-![3ds1](./screenshots/3ds1.jpg)
 Arduino è una scheda elettronica programmabile con un linguaggio che deriva dal C o C++ , chiamato wiring ; nel nostro progetto è stato utilizzato un arduino UNO EVShield , un dispositivo dotato di un microcontrollore ATmega328P. Questa è un'espansione specifica che aggiunge funzionalità specifiche per i robot LEGO Mindstorms EV3 e consente alla scheda di controllare i motori, i sensori e altre componenti dei robot LEGO.
 
 L’EVShield consente all'Arduino UNO di interfacciarsi direttamente a questi, ed è progettato per essere facile da utilizzare, con connettori e porte che si adattano perfettamente ai componenti dei robot LEGO, questo si estende anche a sensori e attuatori dell'Arduino UNO aumentando le possibilità di progettazione.
