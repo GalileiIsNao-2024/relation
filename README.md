@@ -409,7 +409,7 @@ Questi tre lavorano ad una tensione di 3,3V perciò, la tensione nominale uscent
 
 Il Raspberry Pi 4 Modello B+ è una versione avanzata della famiglia Raspberry dotato di porte micro HDMI per la connessione di monitor esterni; dotato anche di due porte USB 2.0 e due porte USB 3.0, che consentono di collegare dispositivi esterni come tastiere, mouse, unità flash USB ecc.
 Utilizza schede microSD come supporto di archiviazione principale, consentendo di espandere facilmente lo spazio di archiviazione e caricare il sistema operativo: Raspbian, basato su Debian.
-Dispone di un header GPIO (General Purpose Input/Output) a 40 pin che consente di collegare sensori, attuatori e altri dispositivi elettronici al Raspberry Pi; noi nel nostro progetto abbiamo collegato al Raspberry Pi a due motori gestiti da un ponte H: un circuito elettronico che controlla l'intensità di corrente che passa attraverso i due motori; questo è composto da quattro transistor di potenza 
+Dispone di un header GPIO (General Purpose Input/Output) a 40 pin che consente di collegare sensori, attuatori e altri dispositivi elettronici al Raspberry Pi; noi nel nostro progetto abbiamo collegato il Raspberry Pi a due motori gestiti da un ponte H: un circuito elettronico che controlla l'intensità di corrente e quindi la velocità dei due motori; questo è composto da quattro transistor di potenza disposti in modo che i motori possano essere collegati sia all'alimentazione positiva che a quella negativa così da permettere il moto in entrambe le direzioni e permettendo anche varie manovre di spostamento a destra e sinistra.
 
 
 ## Partner
